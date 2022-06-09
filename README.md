@@ -128,7 +128,7 @@ def search(values):
             
     return values
     
-    p='3..8.1..22.1.3.6.4...2.4...8.9...1.6.6.....5.7.2...4.9...5.9...9.4.8.7.56..1.7..3'
+    p='.1.....6..2.....3.9.......1..28.64....69.23....43.71......8....73.....58.8.2.1.9.'
 start_time = time.time()
 display(grid_values(p))
 p1=grid_values_improved(p)
@@ -148,7 +148,7 @@ print("\n\n{0} seconds".format(time_taken))
 
 ## Output:
 
-![d1](https://user-images.githubusercontent.com/75235032/172761544-4dffb94a-7ba2-42a9-8541-a86c5c0f3cce.jpg)
+![WhatsApp Image 2022-06-09 at 9 48 15 AM](https://user-images.githubusercontent.com/75234912/172764173-249329df-1471-46a9-8a3d-7d78cf621332.jpeg)
 
 ## Result:
 Thus, a program to solve sudoku puzzle using constraint propagation is implemented successfully.
